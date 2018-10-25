@@ -2,6 +2,11 @@
 
 import os
 
+Voca = "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲンガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッー@"
+
+Vocabrary = [x for x in Voca]
+Voca_num = len(Vocabrary)
+
 # Data path
 Vocabrary_path = 'katakana.txt'
 gt_file_path = 'pokemon.txt'
@@ -45,7 +50,7 @@ Test_dirs = [
 ]
 
 Save_directory = 'output'
-Save_model = 'png.h5'
+Save_model = 'PNG.h5'
 Save_path = os.path.join(Save_directory, Save_model)
 
 # other config

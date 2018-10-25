@@ -34,12 +34,10 @@ e.g.) Pikachu -> 25_1.jpg, 25_2.jpg, 25_3.png, ...
 
 ```
 PokemonNameGenerator_keras --- Data --- *.jpg(or png)
-                            |- output -png.h5
+                            |- output - PNG.h5
                             |
                             |- config.py
                             |- data_loader.py
-			    |- hiragana.txt
-                            |- katakana.txt
 			    |- main.py
                             |- model.py
 			    |- pokemon.txt

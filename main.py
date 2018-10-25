@@ -19,7 +19,7 @@ import cv2
 from glob import glob
 
 import config as cf
-from data_loader import DataLoader, get_vocabrary, get_ids
+from data_loader import DataLoader, get_ids
 from model import *
 
 
@@ -70,7 +70,7 @@ def test():
     decoder_model = model_test_decoder()
     decoder_model.load_weights(cf.Save_path, by_name=True)
 
-    voca = get_vocabrary()
+    voca = cf.Vocabrary
     ids = get_ids()
 
     img_paths = get_image_paths()
