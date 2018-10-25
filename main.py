@@ -144,7 +144,7 @@ if __name__ == '__main__':
         test()
 
     if not (args.train or args.test):
-        print("please train or test flag")
+        print("please select train or test flag")
         print("train: python main.py --train")
         print("test:  python main.py --test")
         print("both:  python main.py --train --test")
