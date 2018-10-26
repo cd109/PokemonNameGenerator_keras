@@ -11,6 +11,8 @@ I confirmed using "ピカチュウ(Pikachu, id:25)", "ボーマンダ(Salimence,
 
 This is motivated by https://github.com/keras-team/keras/blob/master/examples/lstm_seq2seq.py
 
+![alt tag](model.jpg)
+
 # Requirements
 
 ```
